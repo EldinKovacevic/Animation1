@@ -1,0 +1,863 @@
+body {
+     margin-top: 6%;
+     margin-left: 30%;
+     margin-right: 20%;
+     background-image: url(4.jpg);
+     }
+  #box-1 {
+     position: absolute;
+     height: 200px;
+     width: 200px;
+     border-radius: 50%;
+     background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+     filter: blur(58px);
+     margin-left: -220px;
+     }
+     #box-2 {
+     margin-top: 20px;
+     margin-left: -200px;
+     position: absolute;
+     height: 160px;
+     width: 160px;
+     border-radius: 50%;
+     background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+     }
+    #box-3 { 
+     height: 130px;
+     width: 130px;
+     position: absolute;
+     border-radius: 50%;
+     background: white;
+     margin-top: 35px;
+     margin-left: -185px;
+     }
+    #box-3::after {
+     content: "";
+     height: 100px;
+     width: 100px;
+     position: absolute;
+     border-radius: 50%;
+     background:white;
+     background-image: url(H.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 70px;
+     opacity: 0.95;
+     margin-top: 15px;
+     margin-left: 15px;
+     }
+    #box-2 {
+     animation-name: wheel;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+     }
+    #box-1 {
+     animation-name: wheel;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+     }
+    #box-3::after {
+     animation-name: pulse;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+     animation-timing-function: ease;
+     }
+    @keyframes wheel {
+     from{
+         transform: rotate(0deg);
+     }
+     to{
+         transform: rotate(360deg);
+     }
+     }
+    @keyframes pulse {
+     from{
+         transform: scale(0.1);
+     }
+     to{
+         transform: scale(0.9);
+     }
+     }
+         
+       #box-4 {
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+        filter: blur(58px);
+        margin-left: -30px;
+        }
+        #box-5 {
+        margin-top: 20px;
+        margin-left: -20px;
+        position: absolute;
+        height: 160px;
+        width: 160px;
+        border-radius: 50%;
+        background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+        }
+       #box-6 { 
+        height: 130px;
+        width: 130px;
+        position: absolute;
+        border-radius: 50%;
+        background: white;
+        margin-top: 35px;
+        margin-left: -5px;
+        }
+       #box-6::after {
+        content: "";
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        border-radius: 50%;
+        background:white;
+        background-image: url(A.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 70px;
+        opacity: 0.95;
+        margin-top: 15px;
+        margin-left: 15px;
+        }
+       #box-5 {
+        animation-name: wheel;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        }
+       #box-4 {
+        animation-name: wheel;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        }
+       #box-6::after {
+        animation-name: pulse;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+        }
+       @keyframes wheel {
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+        }
+       @keyframes pulse {
+        from{
+            transform: scale(0.1);
+        }
+        to{
+            transform: scale(0.9);
+        }
+        } 
+
+        #box-7 {
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+            filter: blur(58px);
+            margin-left: 150px;
+            }
+            #box-8 {
+            margin-top: 20px;
+            margin-left: 160px;
+            position: absolute;
+            height: 160px;
+            width: 160px;
+            border-radius: 50%;
+            background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+            }
+           #box-9 { 
+            height: 130px;
+            width: 130px;
+            position: absolute;
+            border-radius: 50%;
+            background: white;
+            margin-top: 35px;
+            margin-left: 175px;
+            }
+           #box-9::after {
+            content: "";
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            border-radius: 50%;
+            background:white;
+            background-image: url(P.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 60px;
+            opacity: 0.95;
+            margin-top: 15px;
+            margin-left: 15px;
+            }
+           #box-8 {
+            animation-name: wheel;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            }
+           #box-7 {
+            animation-name: wheel;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            }
+           #box-9::after {
+            animation-name: pulse;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+            }
+           @keyframes wheel {
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+            }
+           @keyframes pulse {
+            from{
+                transform: scale(0.1);
+            }
+            to{
+                transform: scale(0.9);
+            }
+            }
+
+        #box-10 {
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+        filter: blur(58px);
+        margin-left: 330px;
+        }
+        #box-11 {
+        margin-top: 20px;
+        margin-left: 340px;
+        position: absolute;
+        height: 160px;
+        width: 160px;
+        border-radius: 50%;
+        background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+        }
+       #box-12 { 
+        height: 130px;
+        width: 130px;
+        position: absolute;
+        border-radius: 50%;
+        background: white;
+        margin-top: 35px;
+        margin-left: 355px;
+        }
+       #box-12::after {
+        content: "";
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        border-radius: 50%;
+        background:white;
+        background-image: url(P.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 60px;
+        opacity: 0.95;
+        margin-top: 15px;
+        margin-left: 15px;
+        }
+       #box-11 {
+        animation-name: wheel;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        }
+       #box-10 {
+        animation-name: wheel;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        }
+       #box-12::after {
+        animation-name: pulse;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+        }
+       @keyframes wheel {
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+        }
+       @keyframes pulse {
+        from{
+            transform: scale(0.1);
+        }
+        to{
+            transform: scale(0.9);
+        }
+        }
+
+ #box-13 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+    filter: blur(58px);
+    margin-left: 515px;
+    }
+    #box-14 {
+    margin-top: 20px;
+    margin-left: 520px;
+    position: absolute;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+    }
+   #box-15 { 
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    border-radius: 50%;
+    background: white;
+    margin-top: 35px;
+    margin-left: 535px;
+    }
+   #box-15::after {
+    content: "";
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    border-radius: 50%;
+    background:white;
+    background-image: url(Y.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+    opacity: 0.95;
+    margin-top: 15px;
+    margin-left: 15px;
+    }
+   #box-14 {
+    animation-name: wheel;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    }
+   #box-13 {
+    animation-name: wheel;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    }
+   #box-15::after {
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    }
+   @keyframes wheel {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    }
+   @keyframes pulse {
+    from{
+        transform: scale(0.1);
+    }
+    to{
+        transform: scale(0.9);
+    }
+    }
+
+    #box-16 {
+        position: absolute;
+        height: 350px;
+        width: 350px;
+        border-radius: 50%;
+        background: linear-gradient( #c22573, #2ece76, #5325f8,#da3030,#c9e23b);
+        filter: blur(50px);
+        margin-left: 70px;
+        margin-top: 180px;
+        }
+        #box-17 {
+        margin-top: 220px;
+        margin-left: 110px;
+        position: absolute;
+        height: 270px;
+        width: 270px;
+        border-radius: 50%;
+        background: linear-gradient( #f04299, #55fb9f, #a867f3,#fb5d5d,#e3fb5d);
+        }
+       #box-18 { 
+        height: 240px;
+        width: 240px;
+        position: absolute;
+        border-radius: 50%;
+        background-image: url(44.jpg);
+        margin-top: 235px;
+        margin-left: 125px;
+        }
+       #box-18::after {
+        content: "";
+        height: 210px;
+        width: 210px;
+        position: absolute;
+        border-radius: 50%;
+        
+        background-image: url(8.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 240px;
+        opacity: 0.90;
+        margin-top: 15px;
+        margin-left: 20px;
+        }
+       #box-17 {
+        animation-name: wheel;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        }
+       #box-16 {
+        animation-name: wheel;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        }
+       #box-18::after {
+        animation-name: pulse;
+        animation-duration: 2.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier(0.2, 0.81, 0.57, 1);
+        }
+       @keyframes wheel {
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+        }
+       @keyframes pulse {
+        from{
+            transform: scale(0.9);
+        }
+        to{
+            transform: scale(0.9);
+        }
+        }
+                  
+           #box-21 {
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+            filter: blur(58px);
+            margin-left: -220px;
+             margin-top: 500px;
+            }
+            #box-22 {
+            margin-top: 520px;
+            margin-left: -200px;
+            position: absolute;
+            height: 160px;
+            width: 160px;
+            border-radius: 50%;
+            background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+            }
+           #box-23 { 
+            height: 130px;
+            width: 130px;
+            position: absolute;
+            border-radius: 50%;
+            background: white;
+            margin-top: 535px;
+            margin-left: -185px;
+            }
+           #box-23::after {
+            content: "";
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            border-radius: 50%;
+            background:white;
+            background-image: url(M.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 70px;
+            opacity: 0.95;
+            margin-top: 15px;
+            margin-left: 15px;
+            }
+           #box-22 {
+            animation-name: wheel;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            }
+           #box-21 {
+            animation-name: wheel;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            }
+           #box-23::after {
+            animation-name: pulse;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+            }
+           @keyframes wheel {
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+            }
+           @keyframes pulse {
+            from{
+                transform: scale(0.1);
+            }
+            to{
+                transform: scale(0.9);
+            }
+            }
+             
+            #box-24 {
+                position: absolute;
+                height: 200px;
+                width: 200px;
+                border-radius: 50%;
+                background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+                filter: blur(58px);
+                margin-left: -30px;
+                margin-top: 500px;
+                }
+                #box-25 {
+                margin-top: 520px;
+                margin-left: -20px;
+                position: absolute;
+                height: 160px;
+                width: 160px;
+                border-radius: 50%;
+                background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+                }
+               #box-26 { 
+                height: 130px;
+                width: 130px;
+                position: absolute;
+                border-radius: 50%;
+                background: white;
+                margin-top: 535px;
+                margin-left: -5px;
+                }
+               #box-26::after {
+                content: "";
+                height: 100px;
+                width: 100px;
+                position: absolute;
+                border-radius: 50%;
+                background:white;
+                background-image: url(A.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 70px;
+                opacity: 0.95;
+                margin-top: 15px;
+                margin-left: 15px;
+                }
+               #box-25 {
+                animation-name: wheel;
+                animation-duration: 1s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+                }
+               #box-24 {
+                animation-name: wheel;
+                animation-duration: 1s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+                }
+               #box-26::after {
+                animation-name: pulse;
+                animation-duration: 1s;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease;
+                }
+               @keyframes wheel {
+                from{
+                    transform: rotate(0deg);
+                }
+                to{
+                    transform: rotate(360deg);
+                }
+                }
+               @keyframes pulse {
+                from{
+                    transform: scale(0.1);
+                }
+                to{
+                    transform: scale(0.9);
+                }
+                } 
+                   
+                
+                #box-27 {
+                    position: absolute;
+                    height: 200px;
+                    width: 200px;
+                    border-radius: 50%;
+                    background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+                    filter: blur(58px);
+                    margin-left: 150px;
+                    margin-top: 500px;
+                    }
+                    #box-28 {
+                    margin-top: 520px;
+                    margin-left: 160px;
+                    position: absolute;
+                    height: 160px;
+                    width: 160px;
+                    border-radius: 50%;
+                    background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+                    }
+                   #box-29 { 
+                    height: 130px;
+                    width: 130px;
+                    position: absolute;
+                    border-radius: 50%;
+                    background: white;
+                    margin-top: 535px;
+                    margin-left: 175px;
+                    }
+                   #box-29::after {
+                    content: "";
+                    height: 100px;
+                    width: 100px;
+                    position: absolute;
+                    border-radius: 50%;
+                    background:white;
+                    background-image: url(R.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 60px;
+                    opacity: 0.95;
+                    margin-top: 15px;
+                    margin-left: 15px;
+                    }
+                   #box-28 {
+                    animation-name: wheel;
+                    animation-duration: 1s;
+                    animation-iteration-count: infinite;
+                    animation-timing-function: linear;
+                    }
+                   #box-27 {
+                    animation-name: wheel;
+                    animation-duration: 1s;
+                    animation-iteration-count: infinite;
+                    animation-timing-function: linear;
+                    }
+                   #box-29::after {
+                    animation-name: pulse;
+                    animation-duration: 1s;
+                    animation-iteration-count: infinite;
+                    animation-timing-function: ease;
+                    }
+                   @keyframes wheel {
+                    from{
+                        transform: rotate(0deg);
+                    }
+                    to{
+                        transform: rotate(360deg);
+                    }
+                    }
+                   @keyframes pulse {
+                    from{
+                        transform: scale(0.1);
+                    }
+                    to{
+                        transform: scale(0.9);
+                    }
+                    }
+
+                        #box-30 {
+                        position: absolute;
+                        height: 200px;
+                        width: 200px;
+                        border-radius: 50%;
+                        background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+                        filter: blur(58px);
+                        margin-left: 330px;
+                        margin-top: 500px;
+                        }
+                        #box-31 {
+                        margin-top: 520px;
+                        margin-left: 340px;
+                        position: absolute;
+                        height: 160px;
+                        width: 160px;
+                        border-radius: 50%;
+                        background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+                        }
+                       #box-32 { 
+                        height: 130px;
+                        width: 130px;
+                        position: absolute;
+                        border-radius: 50%;
+                        background: white;
+                        margin-top: 535px;
+                        margin-left: 355px;
+                        }
+                       #box-32::after {
+                        content: "";
+                        height: 100px;
+                        width: 100px;
+                        position: absolute;
+                        border-radius: 50%;
+                        background:white;
+                        background-image: url(C.png);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: 67px;
+                        opacity: 0.95;
+                        margin-top: 15px;
+                        margin-left: 15px;
+                        }
+                       #box-31 {
+                        animation-name: wheel;
+                        animation-duration: 1s;
+                        animation-iteration-count: infinite;
+                        animation-timing-function: linear;
+                        }
+                       #box-30 {
+                        animation-name: wheel;
+                        animation-duration: 1s;
+                        animation-iteration-count: infinite;
+                        animation-timing-function: linear;
+                        }
+                       #box-32::after {
+                        animation-name: pulse;
+                        animation-duration: 1s;
+                        animation-iteration-count: infinite;
+                        animation-timing-function: ease;
+                        }
+                       @keyframes wheel {
+                        from{
+                            transform: rotate(0deg);
+                        }
+                        to{
+                            transform: rotate(360deg);
+                        }
+                        }
+                       @keyframes pulse {
+                        from{
+                            transform: scale(0.1);
+                        }
+                        to{
+                            transform: scale(0.9);
+                        }
+                        }
+
+           
+                        #box-33 {
+                            position: absolute;
+                            height: 200px;
+                            width: 200px;
+                            border-radius: 50%;
+                            background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+                            filter: blur(58px);
+                            margin-left: 515px;
+                            margin-top: 500px;
+                            }
+                            #box-34 {
+                            margin-top: 520px;
+                            margin-left: 520px;
+                            position: absolute;
+                            height: 160px;
+                            width: 160px;
+                            border-radius: 50%;
+                            background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+                            }
+                        #box-35 { 
+                            height: 130px;
+                            width: 130px;
+                            position: absolute;
+                            border-radius: 50%;
+                            background: white;
+                            margin-top: 535px;
+                            margin-left: 535px;
+                            }
+                        #box-35::after {
+                            content: "";
+                            height: 100px;
+                            width: 100px;
+                            position: absolute;
+                            border-radius: 50%;
+                            background:white;
+                            background-image: url(H.png);
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: 70px;
+                            opacity: 0.95;
+                            margin-top: 15px;
+                            margin-left: 15px;
+                            }
+                        #box-34 {
+                            animation-name: wheel;
+                            animation-duration: 1s;
+                            animation-iteration-count: infinite;
+                            animation-timing-function: linear;
+                            }
+                        #box-33 {
+                            animation-name: wheel;
+                            animation-duration: 1s;
+                            animation-iteration-count: infinite;
+                            animation-timing-function: linear;
+                            }
+                        #box-35::after {
+                            animation-name: pulse;
+                            animation-duration: 1s;
+                            animation-iteration-count: infinite;
+                            animation-timing-function: ease;
+                            }
+                        @keyframes wheel {
+                            from{
+                                transform: rotate(0deg);
+                            }
+                            to{
+                                transform: rotate(360deg);
+                            }
+                            }
+                        @keyframes pulse {
+                            from{
+                                transform: scale(0.1);
+                            }
+                            to{
+                                transform: scale(0.9);
+                            }
+                            }             
+                            
+                            
+                            <!--Eldin Kovacevic-->
